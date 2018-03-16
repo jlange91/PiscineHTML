@@ -1,0 +1,178 @@
+body {
+    background-color: grey;
+	
+	width: 99%;
+}
+header {
+	padding: 5px;
+margin: 5px;
+	color: white;
+	background-color: black;
+}
+
+h1 {
+    color: wight;
+    font-family: courier;
+    font-size: 200%;
+	text-align:center;
+}
+h2 {
+    color: black;
+    font-family: courier;
+    font-size: 200%;
+	text-align:center;
+}
+p  {
+    color: white;
+    font-family: Comic Sans MS;
+    font-size: 80%;
+    text-align:center;
+ 
+}
+
+.horaire{
+
+    color: white;
+    font-family: courier;
+    font-size: 120%;
+margin: 0%;
+
+}
+
+
+
+.titretableaux {
+    color: white;
+    font-family: courier;
+    font-size: 120%;
+    text-align:center;
+margin: 0%;
+}
+
+
+
+
+h3 {
+    color: cyan;
+    font-family: courier;
+    font-size: 150%;
+    text-align:center;
+}
+
+img{
+	display: block;
+	margin: auto;
+	max-width: 80%; /* les images seront limitées à la largeur de leur parent */
+	}
+
+
+div{
+	margin: 5px;
+	
+	display:inline-block;
+	width:15%;
+	vertical-align: top;
+	border: 2px black inset;
+        background-color: black;
+	margin-left: 18px;
+}
+
+
+section {
+	margin: 5px;
+	vertical-align: top;
+	padding: 5px;
+	background-color: lightgrey;
+	
+	display:inline-block;
+	width:80%;	
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+
+
+img {
+  
+	display: block;
+	margin: auto;
+	max-width: 80%; /* les images seront limitées à la largeur de leur parent */
+	
+
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	
+	margin: 8px;
+	
+	
+	
+	
+	
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+footer {
+	border-top: 2px solid white;
+	padding: 1px;
+	color: white;
+	width: 100%;
+	background-color: black;
+	position: absolute; bottom: 0%;
+
+}
+footer p {
+	margin:5px;
+}
+
+
+@media all and (max-width: 800px) 
+{
+nav {
+	width: 95%;
+	display:block;
+}
+section{
+	display: block;
+	width: 95%;
+}
+nav li {
+  display:inline-block;
+}
+}

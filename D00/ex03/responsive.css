@@ -1,0 +1,51 @@
+body
+{
+  background-image: url("http://upload.wikimedia.org/wikipedia/commons/c/c8/DIMendeleevCab.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+table
+{
+  width: 100%;
+  height: 80%;
+  min-height: 450px;
+}
+td
+{
+  position: relative;
+  text-align: center;
+  font-size: 1vw;
+  width: 4%;
+  height: 4%;
+  min-width: 30px;
+  border: 1px solid black;
+}
+h1
+{
+  text-align: center;
+  color: rgb(28, 184, 200);
+}
+h2
+{
+  text-align: center;
+  font-size: 100%;
+}
+.num_atom
+{
+  position: absolute;
+  text-align: left;
+  margin: 0;
+  bottom: 0;
+}
+.mass_atom
+{
+  position: absolute;
+  text-align: right;
+  top: 0;
+  right: 0;
+  margin: 0;
+}
+#nobord
+{
+  border: none;
+}
